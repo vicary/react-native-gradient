@@ -1,5 +1,5 @@
 // @flow
-import type { ViewProps } from "react-native/Libraries/Components/View/ViewPropTypes";
+import type { ViewPropTypes } from "depreacated-react-native-prop-types";
 import type { HostComponent } from "react-native";
 import type { Float } from "react-native/Libraries/Types/CodegenTypes";
 import type { ColorValue } from "react-native/Libraries/StyleSheet/StyleSheet";
@@ -9,7 +9,7 @@ import codegenNativeComponent from "react-native/Libraries/Utilities/codegenNati
 export type Point = $ReadOnly<{| x: Float, y: Float |}>;
 
 type NativeProps = $ReadOnly<{|
-  ...ViewProps,
+  ...$PropertyType<ViewPropTypes, "ViewProps">,
   start?: Point,
   end?: Point,
   colors: $ReadOnlyArray<ColorValue>,
