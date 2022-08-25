@@ -1,48 +1,52 @@
 {
-    "name": "rnx-gradient",
-    "version": "0.1.0",
-    "description": "Linear Gradient for React Native Fabric",
-    "react-native": "src/index",
-    "source": "src/index",
-    "files": [
-        "src",
-        "android",
-        "ios",
-        "react-native-gradient.podspec",
-        "!android/build",
-        "!ios/build",
-        "!**/__tests__",
-        "!**/__fixtures__",
-        "!**/__mocks__"
-    ],
-    "keywords": [
-        "react-native",
-        "ios",
-        "android",
-        "linear-gradient"
-    ],
-    "repository": "https://github.com/FyndX/react-native-gradient",
-    "author": "<Subramanya Chakravarthy> <subramanya@fyndx.io> (https://github.com/chakrihacker)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/FyndX/react-native-gradient/issues"
-    },
-    "homepage": "https://github.com/FyndX/react-native-gradient#readme",
-    "devDependencies": {
-        "@babel/core": "^7.18.2",
-        "@babel/runtime": "^7.18.3"
-    },
-    "peerDependencies": {
-        "react": "*",
-        "react-native": "*"
-    },
-    "codegenConfig": {
-        "libraries": [
-            {
-                "name": "rnx-gradient",
-                "type": "components",
-                "jsSrcsDir": "src"
-            }
-        ]
-    }
+  "name": "@vicary/rnx-gradient",
+  "version": "0.2.1",
+  "description": "Linear Gradient for React Native Fabric",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-gradient.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "linear-gradient"
+  ],
+  "repository": "https://github.com/FyndX/react-native-gradient",
+  "author": "<Subramanya Chakravarthy> <subramanya@fyndx.io> (https://github.com/chakrihacker)",
+  "contributors": [
+    "Vicary A. <vicary.archangel@member.mensa.org>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FyndX/react-native-gradient/issues"
+  },
+  "homepage": "https://github.com/FyndX/react-native-gradient#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/runtime": "^7.18.3"
+  },
+  "peerDependencies": {
+    "depreacated-react-native-prop-types": "*",
+    "react": "^17 || ^18",
+    "react-native": "^0.68 || ^0.69"
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "rnx-gradient",
+        "type": "components",
+        "jsSrcsDir": "src"
+      }
+    ]
+  }
 }
